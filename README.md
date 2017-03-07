@@ -1,4 +1,4 @@
-## Loopback in Five Minutes
+## Loopback in Five
 
 This is the git repository that shows you how to get a Loopback server set up in no time. This server will:
 
