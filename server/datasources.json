@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "ComposeMongo": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://animalsUsername:loopbackRocks123@aws-us-east-1-portal.26.dblayer.com:17243/animalsDemo?ssl=true",
+    "database": "",
+    "password": "",
+    "name": "ComposeMongo",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
