@@ -8,6 +8,8 @@ This is the git repository that shows you how to get a Loopback server set up in
 
 This repository contains a completed product, but the steps below will show you how to replicate it.
 
+Follow along with the video demo located [here](https://www.youtube.com/watch?v=pFPMFcPNgKA).
+
 ## Installation
 You'll need to have Node.js and npm installed on your machine. Go [here](https://nodejs.org/en/download/) if you haven't done that yet.  
 
