@@ -1,0 +1,4 @@
+applications:
+  - name: loopback-in-five-strongloop-evangelists
+    random-route: true
+    memory: 256M 
