@@ -1,4 +1,4 @@
-## Loopback in Five More - Deployment
+## Live in Five More - Deployment
 
 This is the git repository that shows you how to take a LoopBack server you've already set up (like [this]() one), and deploy it to Bluemix.
 
