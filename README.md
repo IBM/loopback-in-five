@@ -1,4 +1,4 @@
-## Loopback in Five
+## LoopBack in Five
 
 ![logo](./tutorialPhotos/loopbackLogo.png)
 
