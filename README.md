@@ -4,5 +4,5 @@ This is the GitHub repository that will show you how you can create a Node.js AP
 
 Click one of the links below to start your tutorial:
 
-[Create your API in 5]()  
-[Deploy your API in 5 more]()
+[Create your API in 5](CREATE.md)  
+[Deploy your API in 5 more](DEPLOY.md)
