@@ -2,13 +2,13 @@
 
 Express.js made it easy to roll up a REST API in Node.js, and it's become the de-facto library for standing up a backend. [Strongloop](https://strongloop.com) took that and made it even easier to create your APIs.
 
-Strongloop created LoopBack, a tool that allows you to generate a Node.js API that's architected like Express.js, and adheres to the OpenAPI spec. You can have a production-ready web API online and ready to go within 10 quick minutes, and it's flexible and scalable to any needs you might have as it grows.
+Strongloop created LoopBack, a tool that allows you to generate a Node.js API that's architected like Express.js, and adheres to the OpenAPI spec. You can have a production-ready web API online with [Cloud Foundry](https://www.cloudfoundry.org/) and ready to go within 10 quick minutes, and it's flexible and scalable to any needs you might have as it grows.
 
 You can learn how to do this in two short videos. Here's the first video, where you'll create the API: 
 
 [![Create an API in 5 minutes](https://img.youtube.com/vi/Bm6u1f2PUag/0.jpg)](https://www.youtube.com/watch?v=Bm6u1f2PUag)
 
-And here's the second video, where you'll deploy it to Bluemix:
+And here's the second video, where you'll deploy it to Cloud Foundry on Bluemix:
 
 [![Deploy your API in 5 more minutes](https://img.youtube.com/vi/df7WqzfRNZk/0.jpg)](https://www.youtube.com/watch?v=df7WqzfRNZk)
 
@@ -18,7 +18,8 @@ And here's the second video, where you'll deploy it to Bluemix:
 
 ## Included Components
 - [LoopBack](https://loopback.io)
-- [Cloud Foundry via Bluemix](https://console.bluemix.net/registration?cm_sp=developer-_-api-connect-_-github-loopback-tutorial)
+- [Cloud Foundry](https://www.cloudfoundry.org/)
+- [Bluemix](https://console.bluemix.net/registration?cm_sp=developer-_-api-connect-_-github-loopback-tutorial)
 - [Compose.io](https://compose.io)
 
 # System Preparations
@@ -35,6 +36,8 @@ Hang onto this, as you'll need this for later.
 
 ### Bluemix
 Create an account on Bluemix for free by going [here](https://console.bluemix.net/registration?cm_sp=developer-_-api-connect-_-github-loopback-tutorial). After that, download the Bluemix CLI to your local machine [here](https://console.bluemix.net/docs/cli/reference/bluemix_cli/all_versions.html#bluemix-cli-installer-downloads) and log in with the same account that you just created.
+
+You can deploy this application anywhere that supports Cloud Foundry. Since Bluemix supports it out of the box, we'll use it to deploy the application.
 
 ### Node.js
 You'll also need to make sure you have at least v6.0 of Node.js installed on your local machine. I recommend using [Node Version Manager](https://github.com/creationix/nvm) to handle your Node.js versions. In your command line, type:
@@ -243,6 +246,8 @@ Once you are here, you can play around right in the API Explorer with both of yo
 ## Part B: Deploy your API in just five more minutes
 
 ### 6. Create a Cloud Foundry Instance
+
+It's important to point out here that you can run this anywhere Cloud Foundry is supported. Luckily, Bluemix supports Cloud Foundry, so for this tutorial, we'll be using that.
 
 Log into your Bluemix account and navigate to your [dashboard](https://console.ng.bluemix.net). In the upper right hand corner of the dashboard, click on the "Create App" button that looks like this:
 
