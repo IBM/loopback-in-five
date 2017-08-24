@@ -63,7 +63,7 @@ npm -v
 If you're clean so far, you'll now want to install LoopBack. Type the following:
 
 ```bash
-npm install -g loopback
+npm install -g loopback-cli
 lb -v
 ```
 
