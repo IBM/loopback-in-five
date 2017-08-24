@@ -110,10 +110,7 @@ It will start the Yeoman generator, and allow you to make selections about your 
    __'.___.'__
  ´   `  |° ´ Y `
 
-? What's the name of your application? marketplace
-? Enter name of the directory to contain the project: (workshop-marketplace)
-   create marketplace/
-     info change the working directory to marketplace
+? What's the name of your application? AnimalsDemo
 ? Which version of LoopBack would you like to use? 3.x (current)
 ? What kind of application do you have in mind? api-server (A LoopBack API server with local User auth)
 ```
