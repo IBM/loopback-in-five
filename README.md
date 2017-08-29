@@ -110,16 +110,18 @@ It will start the Yeoman generator, and allow you to make selections about your 
    __'.___.'__
  ´   `  |° ´ Y `
 
-? What's the name of your application? AnimalsDemo
+? What's the name of your application? AnimalsDemo #
 ? Which version of LoopBack would you like to use? 3.x (current)
 ? What kind of application do you have in mind? api-server (A LoopBack API server with local User auth)
 ```
 
-Once you hit enter once more, `npm install` will run automatically and pull down all of your dependencies for you.
+Important note: When you are choosing the name of your application, if you just hit Enter, you'll default to the folder you are currently in. If you want to specify a unique folder, type in the name of the folder you want, and LoopBack will create it for you. Keep in mind that you'll have to do all future steps from that folder.
+
+After you enter all of your choices, `npm install` will run automatically and pull down all of your dependencies for you.
 
 ### 2. Linking a Datasource
 
-Next, from the same directory as step 1, you want to type the following into your command line:
+Next, make sure you are in your project directory at the root folder. You want to type the following into your command line:
 
 ```bash
 lb datasource
