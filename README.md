@@ -110,7 +110,7 @@ It will start the Yeoman generator, and allow you to make selections about your 
    __'.___.'__
  ´   `  |° ´ Y `
 
-? What's the name of your application? AnimalsDemo #
+? What's the name of your application? AnimalsDemo
 ? Which version of LoopBack would you like to use? 3.x (current)
 ? What kind of application do you have in mind? api-server (A LoopBack API server with local User auth)
 ```
