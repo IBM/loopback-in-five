@@ -14,7 +14,7 @@ And here's the second video, where you'll deploy it to Cloud Foundry on Bluemix:
 
 ## Diagram
 
-![](http://i.imgur.com/U6NzoQ3.png)
+![](https://media.github.ibm.com/user/1650/files/5961ce34-a504-11e7-9142-488fdeac0713)
 
 ## Included Components
 - [LoopBack](https://loopback.io)
