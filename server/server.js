@@ -4,6 +4,7 @@ var loopback = require('loopback');
 var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
+require('metrics-tracker-client').track();
 
 app.start = function() {
   // start the web server
