@@ -12,7 +12,8 @@ You can learn how to do this in two short videos. Here's the first video, where 
 
 And here's the second video, where you'll deploy it to Cloud Foundry on Bluemix:
 
-[![Deploy your API in 5 more minutes](https://img.youtube.com/vi/df7WqzfRNZk/0.jpg)](https://www.youtube.com/watch?v=df7WqzfRNZk)
+[![Deploy your API in 5 more minutes](https://img.youtube.com/vi/nlP8mCcQDDY/0.jpg)](https://www.youtube.com/watch?v=nlP8mCcQDDY)
+
 
 ## Diagram
 
