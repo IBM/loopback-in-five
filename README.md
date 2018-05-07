@@ -8,7 +8,7 @@ You can learn how to do this in two short videos. Here's the first video, where 
 
 [![Create an API in 5 minutes](https://img.youtube.com/vi/Bm6u1f2PUag/0.jpg)](https://www.youtube.com/watch?v=Bm6u1f2PUag)
 
-And here's the second video, where you'll deploy it to Cloud Foundry on Bluemix:
+And here's the second video, where you'll deploy it to Cloud Foundry on IBM Cloud:
 
 [![Deploy your API in 5 more minutes](https://img.youtube.com/vi/nlP8mCcQDDY/0.jpg)](https://www.youtube.com/watch?v=nlP8mCcQDDY)
 
@@ -20,7 +20,6 @@ And here's the second video, where you'll deploy it to Cloud Foundry on Bluemix:
 ## Included Components
 - [LoopBack](https://loopback.io)
 - [Cloud Foundry](https://www.cloudfoundry.org/)
-- [Bluemix](https://console.bluemix.net/registration?cm_sp=developer-_-api-connect-_-github-loopback-tutorial)
 - [Compose.io](https://compose.io)
 
 # System Preparations
@@ -35,10 +34,10 @@ mongodb://<user>:<password>@aws-us-east-1-portal.26.dblayer.com:17243/animalsDem
 
 Hang onto this, as you'll need this for later.
 
-### Bluemix
-Create an account on Bluemix for free by going [here](https://console.bluemix.net/registration?cm_sp=developer-_-api-connect-_-github-loopback-tutorial). After that, download the Bluemix CLI to your local machine [here](https://console.bluemix.net/docs/cli/reference/bluemix_cli/all_versions.html#bluemix-cli-installer-downloads) and log in with the same account that you just created.
+### IBM Cloud
+Create an account on IBM Cloud for free by going [here](https://console.bluemix.net/registration?cm_sp=developer-_-api-connect-_-github-loopback-tutorial). After that, download the IBM Cloud CLI to your local machine [here](https://console.bluemix.net/docs/cli/reference/bluemix_cli/all_versions.html#bluemix-cli-installer-downloads) and log in with the same account that you just created.
 
-You can deploy this application anywhere that supports Cloud Foundry. Since Bluemix supports it out of the box, we'll use it to deploy the application.
+You can deploy this application anywhere that supports Cloud Foundry. Since IBM Cloud supports it out of the box, we'll use it to deploy the application.
 
 ### Node.js
 You'll also need to make sure you have at least v6.0 of Node.js installed on your local machine. I recommend using [Node Version Manager](https://github.com/creationix/nvm) to handle your Node.js versions. In your command line, type:
@@ -87,7 +86,7 @@ Now you're ready to create and deploy your API.
 
 6. [Create a Cloud Foundry instance](#6-create-a-cloud-foundry-instance)
 7. [Prepare your API Deployment Manifest](#7-prepare-your-api-deployment-manifest)
-8. [Push to Bluemix](#8-push-to-bluemix)
+8. [Push to IBM Cloud](#8-push-to-ibm-cloud)
 
 ## Part A: Create an API in just five minutes
 
@@ -247,9 +246,9 @@ Once you are here, you can play around right in the API Explorer with both of yo
 
 ### 6. Create a Cloud Foundry Instance
 
-It's important to point out here that you can run this anywhere Cloud Foundry is supported. Luckily, Bluemix supports Cloud Foundry, so for this tutorial, we'll be using that.
+It's important to point out here that you can run this anywhere Cloud Foundry is supported. Luckily, IBM Cloud supports Cloud Foundry, so for this tutorial, we'll be using that.
 
-Log into your Bluemix account and navigate to your [dashboard](https://console.ng.bluemix.net). In the upper right hand corner of the dashboard, click on the "Create App" button that looks like this:
+Log into your IBM Cloud account and navigate to your [dashboard](https://console.ng.bluemix.net). In the upper right hand corner of the dashboard, click on the "Create App" button that looks like this:
 
 ![photo1](./tutorialPhotos/createApp.png)
 
@@ -286,9 +285,9 @@ applications:
   memory: 256M
 ```
 
-This file will be searched for by the Bluemix CLI to link your API with the right deployed instance in Cloud Foundry.
+This file will be searched for by the IBM Cloud CLI to link your API with the right deployed instance in Cloud Foundry.
 
-The name of the application in this file should exactly correspond to what you listed in your Bluemix dashboard. Also, the memory needs to be a multiple of 128, and starts at a minimum of 128M. Bluemix will not charge you for more than 512 megabytes of memory on your account.
+The name of the application in this file should exactly correspond to what you listed in your IBM Cloud dashboard. Also, the memory needs to be a multiple of 128, and starts at a minimum of 128M. IBM Cloud will not charge you for more than 512 megabytes of memory on your account.
 
 #### package.json
 
@@ -303,9 +302,9 @@ Open up your package.json file from your API's root directory in your text edito
 
 If you can't find this node in your file, you can add it. The goal is to make sure that you specify the version of Node.js you are using locally, so that Cloud Foundry will download the correct buildpack and version of Node.js on your deployed server. This will help you make sure that you don't run into any unexpected issues on your deployment.
 
-### 8. Push to Bluemix
+### 8. Push to IBM Cloud
 
-By now, you should have set up your Bluemix CLI on your machine. Before you log in for the first time, you'll need to set your API location, according to what you did with your account online by running `bx api` and setting it to one of the following URLs:
+By now, you should have set up your IBM Cloud CLI on your machine. Before you log in for the first time, you'll need to set your API location, according to what you did with your account online by running `bx api` and setting it to one of the following URLs:
 
 - `https://api.ng.bluemix.net` **(US South)**
 - `https://api.eu-gb.bluemix.net` **(United Kingdom)**
