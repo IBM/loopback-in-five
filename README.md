@@ -1,5 +1,3 @@
-![Bluemix Deployments](https://metrics-tracker.mybluemix.net/stats/cef5c0b1d6bbb08086300cfdff2dad15/badge.svg)
-
 # LoopBack in 5: Rapid APIs From Your Terminal
 
 Express.js made it easy to roll up a REST API in Node.js, and it's become the de-facto library for standing up a backend. [Strongloop](https://strongloop.com) took that and made it even easier to create your APIs.
@@ -322,27 +320,6 @@ If you've completed all of the above steps, run `bx app push`, and watch the out
 # References
 [LoopBack](https://loopback.io)
 
-# Privacy Notice
-
-Sample web applications that include this package may be configured to track deployments to [IBM Cloud](https://www.bluemix.net/) and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker](https://github.com/IBM/metrics-collector-service) service on each deployment:
-
-* Node.js package version
-* Node.js repository URL
-* Application Name (`application_name`)
-* Application GUID (`application_id`)
-* Application instance index number (`instance_index`)
-* Space ID (`space_id`) or OS username
-* Application Version (`application_version`)
-* Application URIs (`application_uris`)
-* Cloud Foundry API (`cf_api`)
-* Labels of bound services
-* Number of instances for each bound service and associated plan information
-* Metadata in the repository.yaml file
-
-This data is collected from the `package.json` and `repository.yaml` file in the sample application and the `VCAP_APPLICATION` and `VCAP_SERVICES` environment variables in IBM Cloud and other Cloud Foundry platforms. This data is used by IBM to track metrics around deployments of sample applications to IBM Cloud to measure the usefulness of our examples, so that we can continuously improve the content we offer to you. Only deployments of sample applications that include code to ping the Deployment Tracker service will be tracked.
-
-## Disabling Deployment Tracking
-Deployment tracking can be disabled by removing the `require("metrics-tracker-client").track();` line from 'server/server.js'.
 
 # License
 [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
